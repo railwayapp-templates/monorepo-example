@@ -1,0 +1,13 @@
+html {
+  overflow: auto;
+  scrollbar-gutter: stable both-edges;
+  background-color: black;
+}
+
+body {
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+}
