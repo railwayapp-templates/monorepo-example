@@ -152,4 +152,6 @@ This is the source of the service where the code is deployed.
 
 ## Conclusion
 
+For this app, we would open up the Frontend service to then click on its public domain to access the deployed frontend website.
+
 Congratulations! You have setup a project, setup services, added variables and deployed your monorepo project to Railway.
