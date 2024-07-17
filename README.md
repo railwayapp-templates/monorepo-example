@@ -115,11 +115,11 @@ For our example monorepo the Frontend service needs a `VITE_BACKEND_HOST` variab
 
 **Notes:**
 
-The variables shown here are reference variables, learn more about them [here](https://docs.railway.app/guides/variables#referencing-another-services-variable).
+- The variables shown here are reference variables, learn more about them [here](https://docs.railway.app/guides/variables#referencing-another-services-variable).
 
-Both the Frontend and Backend variables reference each other's public domains. The `RAILWAY_PUBLIC_DOMAIN` variable will be automatically updated whenever you deploy or re-deploy a service.
+- Both the Frontend and Backend variables reference each other's public domains. The `RAILWAY_PUBLIC_DOMAIN` variable will be automatically updated whenever you deploy or re-deploy a service.
 
-See a list of additional variables [here](https://docs.railway.app/reference/variables#railway-provided-variables).
+- See a list of additional variables [here](https://docs.railway.app/reference/variables#railway-provided-variables).
 
 
 ## 6. Directory setup
