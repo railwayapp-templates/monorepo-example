@@ -46,13 +46,13 @@ To be successful using this tutorial, you should already have -
 
 - Choose `Empty project`
 
-    ![Screenshot of new project page](./new_project.png)
+![Screenshot of new project page](./new_project.png)
 
-    **Note:** We chose an empty project instead of deploying from a GitHub repo since we want to set up the project before deploying.
+**Note:** We chose an empty project instead of deploying from a GitHub repo since we want to set up the project before deploying.
 
 ## 2. Project setup
 
-- Give the project an applicable name, this makes the project recognizable when in your dashboard, This can be done through the `Settings` button on the top right of the page.
+- Give the project an applicable name, this makes the project recognizable in your dashboard. You can do this in the Settings tab on the top right of the page.
 
 ![Screenshot of project settings](./project_settings.png)
 
@@ -117,7 +117,7 @@ For our example monorepo the Frontend service needs a `VITE_BACKEND_HOST` variab
 
 The variables shown here are reference variables, learn more about them [here](https://docs.railway.app/guides/variables#referencing-another-services-variable).
 
-In both of the variables we used on the Frontend and Backend they are referencing each other's public domains, that `RAILWAY_PUBLIC_DOMAIN` variable will automatically be updated when you deploy / re-deploy a service.
+Both the Frontend and Backend variables reference each other's public domains. The `RAILWAY_PUBLIC_DOMAIN` variable will be automatically updated whenever you deploy or re-deploy a service.
 
 See a list of additional variables [here](https://docs.railway.app/reference/variables#railway-provided-variables).
 
